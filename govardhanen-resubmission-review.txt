@@ -1,0 +1,14 @@
+This is a review of the resubmitted manuscript by Govardhanen et al "Newton's second law as demonstrated in a cart-pulley-mass system". I recommend accept with minor revisions.
+
+The main point that needs clarification is how the acceleration was measured. The methods make no mention of intervals and only identify mass and use of a stopwatch to time the distance to travel 50 cm. However, it appears that the group then separated this distance into sub intervals and applied a finite difference procedure to estimate velocity as $\Delta x/\Delta t$ and then estimate acceleratin as $\Delta v/\Delta t$. This needs to be explained more clearly. Trying to check the first entry in table 2 does not give me the same acceleration? 
+
+If the group is using repeated measures as "replicates" then that is statistically incorrect and is an example of pseudoreplication. The 3 replicates in table 2 are not quite independent, thus are not truly "replicate" measurements. If that is not the case, then they could make table 2 more compact by simply reporting the mean +/- 1 s.d. of their measurements.
+
+The main result of this work appears to be that the "theoretical" acceleration (acceleration predicted from analysis of m1 and m2 in a half-Atwood machine) compared to what was measured is off by a factor of almost two. That seems very large considering what appears to be the experimental error in their measurements, and needs to be explained. The conclusions are difficult to interpret otherwise. When I try to check a_{theoretical} for 50 g hanging and 500 g cart I get a similar number; but when I try to check the first entry in Table 2 I am unable to get the same result.
+
+
+
+Appendix: If the team is examining the linear fit of the data in the table of Appendix 1, they should graph the data and show the line. While r and r^2 are often cited, it would also be nice to know the p values associated with the intercept and slope they find.
+
+
+

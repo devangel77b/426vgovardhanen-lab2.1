@@ -1,0 +1,53 @@
+This is a review of the MS "F=ma Lab Report" by Govardhanen et al. The MS
+has some problems with it and I recommend rejection; the methods are not
+reproducible and there are only two replicate measurements. 
+
+Title: The title is odd. It looks like this is just someone's lab report
+from a class.
+
+Abstract: The abstract claims data were collected using motion sensors, though
+there is no discussion of these. The abstract is very densely worded but says
+nothing about the specific design of the experiment and the findings. It might
+be better to write it more clearly to say what was done and what was found.
+
+MS organization: The authors added several sections to their work that are not
+normal and ought to be collapsed into the standard format for science work of
+introduction, methods and materials, results, discussion.
+
+Introduction: The introduction sounds fine but it does not set up what
+hypotheses are to be tested nor what the guiding research question is. These
+were buried later in the text under Experimental Hypotheses and Experiment
+Design (which reads as methods). Of the hypotheses given, 2 seem actually tested
+by the data given here and they could be written more succinctly in equation
+form. The third regarding tension on the string seems to never really have been
+tested and so is irrelevant. 
+
+Methods and materials: (= experiment planning, plus experiment design, plus
+analysis). The methods appear to be to use different masses in the experimental
+setup of one hanging mass and one cart connected by a string with a pulley. No
+picture or drawing is given and no sources are given for key items so I am
+unsure I could replicate what they did. The authors specify "motion sensors
+or high speed cameras" as if they do not know what they did; I certainly don't
+know what they did! It is nice they call out which variables are independent
+(mass), which dependent (acceleration), and which are controlled - but they use
+a lot of space to do so; and they do not explain how they control the ones
+that are controlled or if, in their design of experiement, they randomize or
+do anything to control systemic bias.
+
+Results: Results are very difficult to follow because the authors organized
+their results like a MathCAD or ChatGPT calculation worksheet. It appears they
+have calculated the acceleration by observing the position of the cart
+and breaking it into 10 cm intervals; finding the time elapsed for each interval
+as multiple repeated measures of the acceleration for one trial. They get
+an observed average acceleration for the cart of around 0.4 m/s2.
+
+What is confusing here is they give a "force applied" value of 8N (or 14N for
+Trial II) that does not seem to match anything, nor do they explain how they
+applied the force or how they know it is 8 (or 14) N. This is not replicable,
+and I have no way to understand why the "theoretical acceleration" is so much
+higher than what they observed.
+
+Discussion: The ms claims friction can make up the difference between the
+observed acceleration and the very large "theoretical acceleration" but this is
+unconvincing here. The authors do not discuss sources of experimental error
+in their measurements and it appears there are only 2 trials completed.
