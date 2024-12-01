@@ -1,0 +1,235 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{float}
+\usepackage{appendix}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{authblk}
+\usepackage{setspace} % For adjusting line spacing
+\usepackage[a4paper, total={7in, 8in}]{geometry} % Adjust margins
+\usepackage[caption=false]{subfig} % If you're using subfigures or tables, disable caption spacing
+\usepackage{tikz}
+
+\title{Newton's Second Law as Demonstrated in a Cart-Pulley-Mass System}
+
+\author[1]{Vasudevan Govardhanen}
+\author[1]{Gage Grant}
+\author[1]{Aidan Dumalagan}
+\author[1]{Tushaar Akula}
+\author[1]{Daivik Jajoo}
+\author[1]{Rohan Avalur}
+\author[1]{Adrit Sikdar}
+\author[1]{Jake Cacciarelli}
+
+\affil[1]{Manalapan High School, Dr. E's Pd. 1 AP Physics C: Mechanics Class}
+
+\date{Nov. 14, 2024}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We investigated the dynamics of a two-mass cart-pulley system to examine the relationship between mass distribution and acceleration in a nearly frictionless environment. Motion sensors tracked the cart’s position along the track, allowing us to calculate velocity and acceleration over time. By systematically increasing the mass on the pulley, we observed corresponding increases in the cart's acceleration, enabling a comparison with theoretical predictions based on Newton’s second law.
+\end{abstract}
+
+% Decrease line spacing
+\linespread{0.9}\selectfont
+
+\section*{Introduction}
+Newton's Second Law of Motion, asserts that the acceleration of an object is directly proportional to the net force acting upon it and inversely proportional to its mass. Mathematically, this relationship is defined as:
+\begin{equation}
+    F = ma
+\end{equation}
+where \( F \) is the net force applied to the object, \( m \) is its mass, and \( a \) is the resulting acceleration.
+
+This experiment is designed to rigorously examine this relationship by analyzing the dynamics of a cart-pulley-mass system. The system consists of a cart of mass \( m_1 \) connected to a pulley with a hanging mass \( m_2 \), with \( m_2 \) generating a net force \( F = m_2 g \) due to gravity. On a frictionless track, the expected acceleration \( a \) of the cart can be theoretically expressed as:
+\begin{equation}
+    a = \frac{m_2 g}{m_1 + m_2}
+\end{equation}
+where \( g \) is the acceleration due to gravity. As \( m_2 \) is systematically varied, the experiment measures the cart's displacement over time to calculate its observed acceleration, allowing for a comparison with predicted values derived from Equation (2).
+
+\section*{Hypotheses}
+
+To test the validity of Newton’s second law, we define the following hypotheses:
+
+\textbf{Alternative Hypothesis \( H_1 \):}
+\begin{equation}
+    a \propto F
+\end{equation}
+This hypothesis predicts a direct proportionality between the net force \( F = m_2 g \) and the acceleration \( a \) of the cart, consistent with Newton’s second law.
+
+\textbf{Null Hypothesis \( H_0 \):}
+\begin{equation}
+    a = a_0
+\end{equation}
+
+\section{The Procedure}
+
+\subsection{Materials}
+The materials required for this experiment include:
+A cart with constant mass of 500 g. Moreover, weights of varying masses: 50 g, 70 g, and 100 g were used. A pulley system (assumed to have negligible mass), measuring tape (to record distance traveled), and a stopwatch (for measuring travel time) were also used.
+
+
+\subsection{Experimental Variables}
+\begin{itemize}
+    \item \textbf{Independent Variable}: The mass attached to the string is manipulated to observe its effect on the system's acceleration.
+    \item \textbf{Dependent Variable}: The acceleration of the system.
+    \item \textbf{Controlled Variables}: The mass of the pulley, the length of the string, and environmental factors such as air resistance (albeit we cannot influence this due to the fact that we are not airbenders). The experiment assumes negligible friction and pulley mass.
+\end{itemize}
+
+\subsection{Experiment Design \& Analysis}
+
+The experiment was conducted by first positioning the cart on a level surface, ensuring it was securely connected to the pulley system. A specified mass, either 50 g, 70 g, or 100 g, was then attached to the pulley to serve as the mass in our equations henceforth. Using a stopwatch, the time taken for the cart to travel a distance of 50 centimeters was recorded. This process was repeated for each of the three weights (50 g, 70 g, and 100 g), and the time for each trial was recorded.
+
+\subsection{Key Formulas and Derivations}
+
+The primary formula used in this experiment is derived from Newton's Second Law of Motion and the principles of classical mechanics. 
+
+\textbf{Newton's Second Law:}
+The net force \( F \) acting on an object is related to its mass \( m \) and acceleration \( a \) by the following equation:
+\[
+F = ma
+\]
+For our two-mass system, where a mass \( m_2 \) hangs off the pulley and causes the cart \( m_1 \) to accelerate, the net force on the cart is the gravitational force on \( m_2 \), which can be written as:
+\[
+F_{\text{net}} = m_2 g
+\]
+where \( g \) is the acceleration due to gravity. Therefore, using Newton's second law for the cart, we have:
+\[
+m_1 a = m_2 g
+\]
+This gives the acceleration \( a \) of the cart as:
+\[
+a = \frac{m_2 g}{m_1 + m_2}
+\]
+
+
+To calculate the velocity and acceleration during the motion, we use the basic kinematic equation for uniformly accelerated motion:
+
+\[
+v^2 = u^2 + 2 a d. 
+\]
+
+
+
+\subsection{Data}
+
+Below is a table of data concerning the three separate masses and their time intervals with regards to a 10 cm increments in distance travelled.
+
+\begin{table}[H]
+\centering
+\small % Makes the font size smaller
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Mass of Block} & \textbf{Interval} & \textbf{Distance (cm)} & \textbf{Time Interval (s)} \\
+\hline
+\text{50g Block} & 1 & 70 cm to 80 cm & 0.47 s \\
+ & 2 & 80 cm to 90 cm & 0.45 s \\
+ & 3 & 90 cm to 100 cm & 0.50 s \\
+ & 4 & 100 cm to 110 cm & 0.49 s \\
+ & 5 & 110 cm to 120 cm & 0.48 s \\
+ & \text{Total Time} & & 2.39 s \\
+\hline
+\text{70g Block} & 1 & 70 cm to 80 cm & 0.41 s \\
+ & 2 & 80 cm to 90 cm & 0.39 s \\
+ & 3 & 90 cm to 100 cm & 0.43 s \\
+ & 4 & 100 cm to 110 cm & 0.42 s \\
+ & 5 & 110 cm to 120 cm & 0.40 s \\
+ & \text{Total Time} & & 2.05 s \\
+\hline
+\text{100g Block} & 1 & 70 cm to 80 cm & 0.35 s \\
+ & 2 & 80 cm to 90 cm & 0.33 s \\
+ & 3 & 90 cm to 100 cm & 0.36 s \\
+ & 4 & 100 cm to 110 cm & 0.34 s \\
+ & 5 & 110 cm to 120 cm & 0.32 s \\
+ & \text{Total Time} & & 1.80 s \\
+\hline
+\end{tabular}
+\caption{Experimental data for different masses and corresponding time intervals.}
+\end{table}
+
+}
+\caption{Experimental data for different masses and corresponding time intervals.}
+\end{table}
+\vspace{-0.3cm} % Reduce space after table
+
+\subsection{Acceleration Comparisons}
+\textbf{NOTE: } For the sake of brevity, we calculate interval acceleration for 3 intervals for each mass in Table 2.
+
+\begin{table}[H]
+\centering
+\small
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Mass (g)} & \textbf{Interval} & \textbf{Distance (cm)} & \textbf{Time (s)} & \textbf{Velocity (m/s)} & \textbf{Acceleration (m/s²)} \\
+\hline
+50 & 1 & 10 & 0.47 & 0.213 & 0.45 \\
+50 & 2 & 10 & 0.45 & 0.222 & 0.49 \\
+50 & 3 & 10 & 0.50 & 0.200 & 0.40 \\
+50 & \textbf{Average} & & & & 0.46 \\
+\hline
+70 & 1 & 10 & 0.41 & 0.243 & 0.56 \\
+70 & 2 & 10 & 0.39 & 0.256 & 0.66 \\
+70 & 3 & 10 & 0.43 & 0.233 & 0.54 \\
+70 & \textbf{Average} & & & & 0.58 \\
+\hline
+100 & 1 & 10 & 0.35 & 0.286 & 0.82 \\
+100 & 2 & 10 & 0.33 & 0.303 & 0.92 \\
+100 & 3 & 10 & 0.36 & 0.278 & 0.75 \\
+100 & \textbf{Average} & & & & 0.83 \\
+\hline
+\end{tabular}
+
+\caption{Experimental accelerations for different block masses.}
+\end{table}
+\vspace{-0.3cm} % Reduce space after table
+
+\subsection{Comparison with Theoretical Accelerations}
+
+The theoretical acceleration for the system is derived from the following equation, based on Newton’s Second Law:
+\[
+a = \frac{m_2 g}{m_1 + m_2}
+\]
+where \(m_1\) is the mass of the cart, \(m_2\) is the mass hanging from the pulley, and \(g\) is the acceleration due to gravity (\(9.8 \, \text{m/s}^2\)).
+
+For \(m_1 = 500 \, \text{g}\) (0.5 kg), the theoretical accelerations for the given hanging masses are calculated as follows:
+
+1. For \(m_2 = 50 \, \text{g}\) (0.05 kg):
+\[
+a_{\text{theoretical1}} = \frac{(0.05)(9.8)}{0.5 + 0.05} = 0.89 \, \text{m/s}^2
+\]
+
+2. For \(m_2 = 70 \, \text{g}\) (0.07 kg):
+\[
+a_{\text{theoretical2}} = \frac{(0.07)(9.8)}{0.5 + 0.07} = 1.20 \, \text{m/s}^2
+\]
+
+3. For \(m_2 = 100 \, \text{g}\) (0.1 kg):
+\[
+a_{\text{theoretical3}} = \frac{(0.1)(9.8)}{0.5 + 0.1} = 1.63 \, \text{m/s}^2
+\]
+
+Now, comparing these theoretical values with the measured accelerations from the data in Table 2:
+
+\[
+a_{\text{avg1}} = 0.46 \, \text{m/s}^2, \quad a_{\text{avg2}} = 0.58 \, \text{m/s}^2, \quad a_{\text{avg3}} = 0.83 \, \text{m/s}^2
+\]
+
+It is observed that the measured accelerations are consistently lower than the theoretical predictions. The discrepancy is particularly noticeable for the 50 g and 70 g masses, where the measured accelerations are roughly half of the theoretical values. This large difference cannot be attributed to experimental error alone, several large factors such as friction may have meddled in the process, rather.
+
+
+\section{Conclusion}
+The experimental results largely \textbf{supported} the theoretical predictions, with a clear trend observed where the acceleration increased as the mass of the hanging weight increased. This correlation aligns with the principles outlined in Newton’s Second Law, which suggests that the acceleration of an object is directly proportional to the net force acting upon it and inversely proportional to its mass. \textbf{However}, some deviations from the theoretical values were observed. These discrepancies can likely be attributed to various real-world factors such as friction, which was assumed to be negligible in the idealized theoretical model, and other experimental limitations such as timing errors or air resistance. Despite these factors, the overall trend in the data supported the hypothesis.
+
+
+\section{Contributions}
+\begin{enumerate}
+    \item Main Experimentation: Gage Grant, Aidan Dumalagan, Adrit Sikdar
+    \item Data: Tushaar Akula, Rohan Avalur
+    \item Calculations: Vasudevan Govardhanen, Daivik Jajoo
+    \item LaTeX: Vasudevan Govardhanen, Jake Cacciarelli
+\end{enumerate}
+\
+\end{document}
