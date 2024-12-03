@@ -9,6 +9,7 @@
 \usepackage[caption=false]{subfig} % If you're using subfigures or tables, disable caption spacing
 \usepackage{tikz}
 
+\usepackage{amsmath,amsfonts,amssymb}
 
 \begin{document}
 
@@ -57,13 +58,13 @@ Where:
 \end{itemize}
 We perform the regression using the following data points:
 
-\[
-\begin{aligned}
+
+\begin{align}
 F_1 &= 0.49 \quad &a_1 &= 0.46 \hspace*{.3cm} \\
 F_2 &= 0.686 \quad &a_2 &= 0.58 \hspace*{.3cm} \\
 F_3 &= 0.98 \quad &a_3 &= 0.83
-\end{aligned}
-\]
+\end{align}
+
 
 The regression equation is calculated using standard least squares fitting. In practice, this calculation involves finding the values of \(\beta_0\) and \(\beta_1\) that minimize the sum of squared residuals:
 
