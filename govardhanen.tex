@@ -1,4 +1,4 @@
-﻿\documentclass[reprint,amsmath,amssymb,aps]{revtex4-2}
+﻿\documentclass[reprint,amsmath,amssymb,aps,twoside]{revtex4-2}
 
 
 \usepackage{graphicx}
@@ -14,11 +14,28 @@
 \crefname{table}{Table}{Tables}
 \usepackage{svg}
 \usepackage{tikz}
+% set PDF metadata
+\hypersetup{%
+pdftitle={Newton's second law as demonstrated ina cart-pulley-mass system},
+pdfauthor={Vasudevan Govardhanen, Gage Grant, Aidan Dumalagan, Tushaar Akula, Daivik Jajoo, Rohan Avalur, Adrit Sikdar, and Jake Cacciarelli},
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE,RO]{J S\&E \textbf{1}, 15--16 (2024)}
+\fancyhead[LO]{Govardhanen et al.}
+\fancyhead[LE]{Newton's second law as demonstrated}
+\fancyfoot[C]{\thepage}
+\fancypagestyle{mytitlepage}{
+\fancyhf{}
+\fancyhead[C]{Journal of Science \& Engineering \textbf{1}, 15--16 (2024)}
+\fancyfoot[C]{\thepage}
+}
 
 
 
 \begin{document}
-
+\setcounter{page}{15}
 \title{Newton's second law as demonstrated in a cart-pulley-mass system}
 
 \author{Vasudevan Govardhanen}
@@ -39,7 +56,7 @@ We investigated the dynamics of a two-mass cart-pulley system to examine the rel
 
 \keywords{keywords here}
 
-\maketitle
+\maketitle\thispagestyle{mytitlepage}
 
 
 
